@@ -1,6 +1,6 @@
 {
     "name": "wgqi1126/qcloud-sms",
-    "description": "qcloud sms sdk",
+    "description": "QCloud SMS SDK for Composer",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -12,5 +12,8 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {"wgqi1126\\": "src/"}
     }
 }
